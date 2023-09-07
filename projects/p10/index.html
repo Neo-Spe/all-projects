@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Landing Page | Project 10</title>
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top container">
+        <a href="" class="logo">
+          <img src="./images/logo.svg" alt="" />
+        </a>
+
+        <div class="wrapper">
+          <nav>
+            <a href="">Pricing</a>
+            <a href="">Product</a>
+            <a href="#about">About Us</a>
+            <a href="">Careers</a>
+            <a href="#testimonial">Testimonial</a>
+          </nav>
+        </div>
+        <a href="" class="btn">Get Started</a>
+        <button id="mobile-menu-button">
+          <img src="./images/icon-hamburger.svg" alt="" />
+        </button>
+      </div>
+      <div class="container hero">
+        <div class="contents">
+          <h1>Bring everyone together to build better products.</h1>
+          <p>
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+          <a href="" class="btn">Get Started</a>
+        </div>
+        <div class="info">
+          <img src="./images/illustration-intro.svg" alt="" />
+          <!-- <div class="charts">
+          </div>
+          <div class="rating">
+            <h3>89.74%</h3>
+            <div class="box-wrapper">
+              <div class="box primary">+1.5%</div>
+              <div class="box">88.24%</div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </header>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="left">
+          <h2>What’s different about Manage?</h2>
+          <p>
+            Manage provides all the functionality your team needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams.
+          </p>
+        </div>
+        <div class="right">
+          <ul class="items">
+            <li>
+              <span>01</span>
+              <div>
+                <h5>Track company-wide progress</h5>
+                <p>
+                  See how your day-to-day tasks fit into the wider vision. Go
+                  from tracking progress at the milestone level all the way done
+                  to the smallest of details. Never lose sight of the bigger
+                  picture again.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>02</span>
+              <div>
+                <h5>Track company-wide progress</h5>
+                <p>
+                  See how your day-to-day tasks fit into the wider vision. Go
+                  from tracking progress at the milestone level all the way done
+                  to the smallest of details. Never lose sight of the bigger
+                  picture again.
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>03</span>
+              <div>
+                <h5>Track company-wide progress</h5>
+                <p>
+                  See how your day-to-day tasks fit into the wider vision. Go
+                  from tracking progress at the milestone level all the way done
+                  to the smallest of details. Never lose sight of the bigger
+                  picture again.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial" id="testimonial">
+      <div class="cards_wrapper swiper">
+        <div class="cards swiper-wrapper">
+          <div class="card swiper-slide">
+            <img src="./images/avatar-anisha.png" alt="" />
+            <h6>Anisha Li</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              officiis consequuntur dicta, impedit saepe non?
+            </p>
+          </div>
+          <div class="card swiper-slide">
+            <img src="./images/avatar-ali.png" alt="" />
+            <h6>Ali Bravo</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              officiis consequuntur dicta, impedit saepe non?
+            </p>
+          </div>
+          <div class="card swiper-slide">
+            <img src="./images/avatar-richard.png" alt="" />
+            <h6>Richard Watts</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              officiis consequuntur dicta, impedit saepe non?
+            </p>
+          </div>
+          <div class="card swiper-slide">
+            <img src="./images/avatar-shanai.png" alt="" />
+            <h6>Shanai Kay</h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+              officiis consequuntur dicta, impedit saepe non?
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination slider-mobile-pagination"></div>
+      </div>
+      <a href="" class="btn">Get Started</a>
+    </section>
+    <script src="swiper-bundle.min.js"></script>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        // direction: 'vertical',
+        loop: true,
+        spaceBetween: 0,
+        autoplay: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+          },
+          768: {
+            spaceBetween: 30,
+            slidesPerView: 3,
+            loop: true,
+          },
+        },
+      });
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>

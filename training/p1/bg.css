@@ -1,0 +1,54 @@
+* body {
+  /* background-image: linear-gradient(
+    to bottom right,
+    blue,
+    red,
+    orange,
+    orangered,
+    crimson
+  ); */
+  background-image: url("../Images/house.jpeg");
+  background-color: rgb(3, 65, 11);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  color: rgb(224, 250, 218);
+}
+
+.padd {
+  background-color: red;
+  padding: 45px 80px 120px 130px;
+}
+
+.marg {
+  background-color: yellow;
+  color: rgb(3, 65, 11);
+  margin: 25px 50px 100px;
+  padding: 1rem;
+  border: 12px groove red;
+  border-right-color: rgb(32, 117, 32);
+  border-radius: 15px 35px 59px 100px;
+}
+
+input,
+select,
+button {
+  background-color: yellow;
+  border: 1px solid red;
+  padding: 1rem 0.5rem;
+}
+button {
+  margin-top: 1rem;
+  border-radius: 0.6rem;
+}
+
+fieldset {
+  border: 3px solid yellow;
+  border-radius: 1rem;
+}
+
+legend {
+  color: yellow;
+}

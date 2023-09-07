@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+main{
+text-align: center;
+min-height: 100vh;
+padding: 1rem;
+}
+.Tanya{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    /* background-image: url("./images/pattern-bg.svg");
+    background-repeat: no-repeat;
+    background-position:top right; */
+}
+span{
+    color: grey;
+}

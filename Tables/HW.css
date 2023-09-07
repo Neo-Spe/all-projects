@@ -1,0 +1,20 @@
+.id {
+  background-color: orange;
+  color: black;
+  text-align: center;
+}
+#gh {
+  color: black;
+  background-color: yellow;
+  padding: 0;
+  margin: 0%;
+  border-inline-color: red;
+}
+* {
+  /* background-color: yellowgreen; */
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid red;
+}

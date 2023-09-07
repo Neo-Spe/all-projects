@@ -1,0 +1,36 @@
+.top {
+  text-align: center;
+}
+
+.top h1,
+.top h2 {
+  background-color: yellow;
+  color: red;
+  text-decoration: underline;
+}
+
+.top h3 {
+  color: red;
+  text-decoration: underline;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.sec {
+  margin-top: 2.5rem;
+}
+
+.sec h4 {
+  color: red;
+  text-decoration: underline;
+}
+
+/* h4::first-letter {
+  background-color: blue;
+}
+
+.sec h4:first-child{
+  background-color: blue;
+} */

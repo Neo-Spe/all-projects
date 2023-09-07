@@ -1,0 +1,45 @@
+body {
+  /* background-image: linear-gradient(
+    to top right blue,
+    red,
+    darkblue,
+    orangered,
+    crimson
+  ); */
+  background-image: url("../FB_IMG_1551164511762.jpg");
+  background-color: rgb(6, 27, 29);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  color: rgba(134, 168, 9, 0.568);
+  margin: 2px 5px;
+  padding: 2px;
+}
+.mee {
+  background-color: darkblue;
+  border-radius: 20px 500px 72px 0.5px;
+}
+.our {
+  background-color: bisque;
+  text-align: center;
+}
+textarea {
+  color: rgb(180, 108, 14);
+  background-color: blue;
+}
+.T10 {
+  color: whitesmoke;
+  background-color: green;
+}
+fieldset {
+  background-image: linear-gradient(margin-top);
+  color: rgb(238, 57, 57);
+  background-color: aqua;
+  margin: 5px;
+  padding-inline-start: 4px 5px;
+  border: 10px groove orangered;
+  box-sizing: border-box;
+  border-radius: 12px 48px 80px 50px;
+}

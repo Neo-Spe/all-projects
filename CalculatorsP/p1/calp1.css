@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan";
+}
+:root {
+  --Very-dark-desaturated-blue: hsl(222, 26%, 31%);
+  --Very-dark-desaturated-blue: hsl(223, 31%, 20%);
+  --Very-dark-desaturated-blue: hsl(224, 36%, 15%);
+  --Dark-violet: hsl(281, 89%, 26%);
+  --Vivid-magenta: hsl(285, 91%, 52%);
+  --Pure-cyan: hsl(176, 100%, 44%);
+  --Soft-cyan: hsl(177, 92%, 70%);
+  --Very-dark-violet: hsl(268, 47%, 21%);
+  --Dark-magenta: hsl(290, 70%, 36%);
+  --Light-yellow: hsl(52, 100%, 62%);
+  --Very-dark-blue: hsl(198, 20%, 13%);
+  --White: hsl(0, 0, 100%);
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+body {
+  background-color: var(--Very-dark-desaturated-blue);
+  min-height: 100vh;
+  max-width: 100%;
+  overflow: x hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  width: 90%;
+  max-width: 400px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.Top-L {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  color: white;
+}
+.counter {
+}
+.number123 {
+  display: flex;
+  gap: 0.98rem;
+  color: aquamarine;
+}
+.ANOTHER-P {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.ANOTHER-P H3 {
+  font-size: 0.8rem;
+}
+.TOGGLE-RED {
+  background-color: red;
+  height: 18px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.TOGGLE-RED span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: block;
+  background-color: var(--Very-dark-desaturated-blue hsl(223, 31%, 20%) ;);
+}
+.Screen-display {
+  padding: 1.5rem 1rem;
+  text-align: right;
+  background-color: var(--Light-yellow);
+  color: white;
+  font-size: 3rem;
+  border-radius: 0.5rem;
+}
+section.buttons {
+  /* background-color: rgb(71, 141, 83); */
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.8rem;
+  padding: 2rem;
+  font-size: 32px;
+  box-shadow: 0 5px 1px var(--Vivid-magenta);
+}
+
+buttons.section {
+  padding: 1rem;
+  border-radius: 0.3rem;
+  background-color: var(--Dark-violet);
+  color: var(--Light-yellow);
+  font-size: 32px;
+  box-shadow: 0 5px 1px var(--Vivid-magenta);
+}
+
+.del-reset {
+  grid-column: 1/3;
+  background-color: aquamarine;
+}
+.equalto {
+  background-color: var(--Light-yellow);
+  box-shadow: 0 5px 1px var(--Softcyan);
+  color: black;
+  grid-column: 3/5;
+}
+.del {
+  background-color: aquamarine;
+  text-transform: uppercase;
+}

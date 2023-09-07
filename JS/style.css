@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+p {
+  text-align: center;
+  line-height: 1.8;
+}
+
+p span {
+  color: rgb(3, 58, 32);
+  background-color: rgb(167, 241, 207);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 300px;
+  background-color: rgb(3, 58, 32);
+  color: rgb(167, 241, 207);
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+
+input,
+button {
+  padding: 0.8rem 0.4rem;
+  background-color: rgb(167, 241, 207);
+  color: rgb(3, 58, 32);
+  border: 1px solid transparent;
+}
+
+input::placeholder {
+  color: rgb(71, 110, 92);
+}
+
+input:focus {
+  border-color: transparent;
+  outline: none;
+}
+
+button {
+  background-color: rgb(3, 58, 32);
+  color: rgb(167, 241, 207);
+  border-radius: 1rem;
+  cursor: pointer;
+  border-color: rgb(167, 241, 207);
+  box-shadow: 0 5px 5px rgb(167, 241, 207);
+  transition: box-shadow 0.8s;
+}
+
+button:hover {
+  box-shadow: 3px -4px 5px rgb(167, 241, 207);
+}
+
+.testing {
+  font-size: 70px;
+  width: 100%;
+  padding: 2rem;
+}
+
+table {
+  width: 90%;
+  margin: 1rem;
+  /* border: 1px solid green; */
+  border-collapse: collapse;
+}
+
+thead tr {
+  color: white;
+  background-color: rgb(7, 134, 50);
+}
+
+th,
+td {
+  padding: 0.5rem;
+}
+
+tbody tr {
+  border-bottom: 1px solid rgba(0, 128, 0, 0.26);
+}
+
+tbody tr:nth-of-type(odd) {
+  background-color: rgb(202, 245, 209);
+}
+
+tfoot tr {
+  color: rgb(207, 245, 207);
+  background-color: rgba(3, 61, 3, 0.493);
+}
+
+.jug {
+  animation: Jug 1s infinite alternate;
+}
+
+@keyframes Jug {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, -20px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

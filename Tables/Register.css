@@ -1,0 +1,17 @@
+h5 {
+  color: red;
+  text-decoration-line: underline;
+}
+* {
+  background-color: none;
+  padding: 05;
+}
+button {
+  padding: 5;
+  color: aquamarine;
+  background-color: yellow;
+  border: none;
+}
+div {
+  margin-inline: 9;
+}

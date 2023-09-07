@@ -1,0 +1,47 @@
+h1 {
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+label {
+  color: hwb(0 9% 23%);
+}
+#zz {
+  background-color: blue;
+  color: red;
+}
+p {
+  color: rgb(235, 235, 224);
+  background-color: green;
+}
+input {
+  background-color: red;
+  color: white;
+  border-radius: 65px 459px 2500px 1400px;
+}
+button {
+  background-color: rgb(16, 33, 184);
+  color: rgb(172, 158, 153);
+  padding: 1rem;
+  margin: 2px 4px;
+  text-decoration-style: solid;
+  border-radius: 23px 49px 50px 90px;
+}
+* {
+  background-color: rgb(32, 13, 26);
+  color: bisque;
+  /* background-image: url("../my\ HEAD.jpg"); */
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  padding: 0.9rem;
+}
+#reset {
+  background-color: rgb(16, 48, 9);
+  box-sizing: contain;
+  border-radius: 15px 90px 980px 234px;
+  text-align: center;
+  padding: 1rem;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}

@@ -1,0 +1,19 @@
+span {
+  color: red;
+}
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  font-style: italic;
+}
+
+button {
+  background-color: rgb(3, 59, 42);
+  color: white;
+  border: none;
+  margin: 1rem 0;
+  padding: 0.3rem 2rem;
+}
