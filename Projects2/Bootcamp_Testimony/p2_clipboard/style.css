@@ -253,6 +253,7 @@ p {
   align-items: center;
   text-align: center;
   padding: 1rem;
+  gap: 2rem;
 }
 
 .closing {
