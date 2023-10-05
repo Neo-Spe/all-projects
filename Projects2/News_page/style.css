@@ -12,6 +12,7 @@
     --Darkgrayishblue: hsl(236, 13%, 42%);
     --Verydarkblue: hsl(240, 100%, 5%);
     }
+    
     img{
         display: flex;
         max-width: 100%;
