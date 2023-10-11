@@ -2,8 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "poppins" Impact, Haettenschweiler, "Arial Narrow Bold",
-    sans-serif;
+  font-family: "Rubik" Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 a {
@@ -103,7 +102,7 @@ img {
 }
 
 .hero {
-  padding: 2rem;
+  padding: 1rem;
   align-items: center;
   display: flex;
   flex-direction: column-reverse;
@@ -111,22 +110,26 @@ img {
 
 .hero .contents {
   display: flex;
-  flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 1rem;
+  gap: 2rem;
   padding: 1rem;
+}
+.hero.contents .note {
+  padding: 0 1rem;
 }
 
 .Chrome {
   background-color: var(--SoftBlue);
   padding: 1rem;
   color: white;
+  border-radius: 0.5rem;
 }
 
 .Firefox {
   padding: 1rem;
   color: var(--SoftBlue);
+  border-radius: 0.5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -148,26 +151,32 @@ img {
 }
 
 .click {
-  padding: 2rem;
+  padding: 1rem;
   align-items: center;
   text-align: center;
 }
 
-.click.contents {
+.click .contents {
   display: flex;
   flex-direction: column;
 }
 
 .download {
-  align-items: center;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
-.downloadcontents {
+.download .note {
+  text-align: center;
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.contentwrap {
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .boxshadow {
@@ -175,7 +184,7 @@ img {
   justify-content: center;
   flex-direction: column;
   gap: 0.5rem;
-  box-shadow: 1px 2px 1px 5px lightblue;
+  box-shadow: 1px 2px 1px 5px rgb(231, 243, 247);
   padding: 1rem;
 }
 
@@ -185,15 +194,54 @@ img {
   color: white;
 }
 
-.faqs {
+.FAQs {
   padding: 2rem;
   display: flex;
   gap: 2rem;
   align-items: center;
+  flex-direction: column;
+
+  justify-content: space-between;
 }
 
-.cvv {
+.dropdown {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 0.7rem;
+  border-bottom: 1px solid var(--GrayishBlue);
+  padding-block: 0.2rem;
+}
+
+.dropdown .header {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+}
+
+.dropdown .header img {
+  transition: transform 0.3s;
+}
+
+.dropdown .contents {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.5s;
+}
+.dropdown .contents.open {
+  height: auto;
+}
+
+.moreinfo {
+  background-color: var(--SoftBlue);
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.stayup {
+  background-color: var(--SoftBlue);
+  padding: 1rem;
+  color: white;
 }
