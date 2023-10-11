@@ -33,7 +33,7 @@ ul {
 
 .container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1024px;
   margin-inline: auto;
 }
 
@@ -133,7 +133,30 @@ body {
   padding: 1rem;
 }
 
-.collaboration {
+.xyz {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.xyz img {
+  align-items: center;
+  height: 300px;
+  padding: 1rem;
+}
+
+.notexyz {
+  align-items: center;
+  text-align: center;
+  color: var(--White);
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+/* .collaboration {
   background: url("./images/illustration-stay-productive.png");
   background-position: center, 110% -20%;
   background-size: contain, 75%;
@@ -146,7 +169,7 @@ body {
   align-items: flex-start;
   text-align: left;
   display: flex;
-}
+} */
 
 .seehow {
   display: flex;
@@ -212,7 +235,6 @@ span {
 }
 
 .accesstoday {
-  background-color: var(--DarkBluetest);
   color: var(--White);
   align-items: center;
   display: flex;
@@ -221,6 +243,12 @@ span {
   text-align: center;
   gap: 1rem;
   padding: 2rem;
+}
+
+.www {
+  background-color: var(--DarkBluetest);
+  padding: 1rem;
+  margin-bottom: -4rem;
 }
 
 .early {
@@ -252,6 +280,7 @@ span {
   padding: 1rem;
   max-width: max-content;
 }
+
 footer {
   background-color: var(--DarkBlueFooter);
   padding: 1rem;
@@ -280,6 +309,145 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  .Top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  header {
+    background-color: var(--DarkBluesignup);
+    height: 74px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    color: var(--White);
+  }
+
+  .hero {
+    background: url("./images/bg-curvy-desktop.svg"),
+      url("./images/illustration-intro.png");
+    background-repeat: no-repeat;
+    background-position: center, 50% 10%;
+    background-size: contain, 45%;
+    min-height: 850px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    color: var(--White);
+    background-color: hsl(216, 53%, 9%);
+    align-items: center;
+    text-align: center;
+  }
+  .heronote {
+    padding: 2rem;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .getstarted {
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    padding-inline: 3.5rem 3.5rem;
+    border-radius: 2.5rem;
+    /* background: linear-gradient(to right, var(--Blue), var(--DarkBlue)); */
+    background-color: var(--Blue);
+    max-width: max-content;
+  }
+
+  .filewrapcol {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+  }
+  .seehow {
+    display: none;
+  }
+
+  /* .collaboration {
+    background: url("./images/illustration-stay-productive.png");
+    background-position: center, 110% -20%;
+    background-size: contain, 75%;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    padding: 1rem;
+  } */
+
+  /* .collaboration p {
+    align-items: flex-start;
+    text-align: left;
+    display: flex;
+  } */
+  .notexyz {
+    align-items: center;
+    text-align: center;
+    color: var(--White);
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .xyz {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+    align-items: center;
+  }
+  .reviews {
+    display: flex;
+    flex-direction: row;
+    color: var(--White);
+  }
+
+  .respond {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .respondone {
+    border-radius: 2rem;
+    background-color: var(--White);
+    padding-inline: 8rem;
+    max-width: max-content;
+    color: rgb(231, 119, 119);
+  }
+
+  .contentfooter {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    color: var(--White);
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .footlinks {
+    display: flex;
+    flex-direction: row;
+    gap: 1.3rem;
+  }
+
+  .footlink {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .Top {
     display: flex;
     justify-content: space-between;
@@ -341,18 +509,61 @@ footer {
     display: none;
   }
 
-  .collaboration {
+  /* .collaboration {
     background: url("./images/illustration-stay-productive.png");
     background-position: center, 110% -20%;
     background-size: contain, 75%;
     background-repeat: no-repeat;
     min-height: 400px;
     padding: 1rem;
-  }
+  } */
 
-  .collaboration p {
+  /* .collaboration p {
     align-items: flex-start;
     text-align: left;
     display: flex;
+  } */
+  .notexyz {
+    align-items: center;
+    text-align: center;
+    color: var(--White);
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .xyz {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+    align-items: center;
+  }
+  .reviews {
+    display: flex;
+    flex-direction: row;
+    color: var(--White);
+  }
+
+  .respond {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .respondone {
+    border-radius: 2rem;
+    background-color: var(--White);
+    padding-inline: 8rem;
+    max-width: max-content;
+    color: rgb(231, 119, 119);
+  }
+
+  .contentfooter {
+    display: flex;
+    flex-direction: row;
   }
 }

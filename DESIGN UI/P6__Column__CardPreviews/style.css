@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins" Times New Roman, Times, serif;
+}
+
+:root {
+  --Brightorange: hsl(31, 77%, 52%);
+  --Darkcyan: hsl(184, 100%, 22%);
+  --Verydarkcyan: hsl(179, 100%, 13%);
+  --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+  --verylightgraybackgroundheadingsbuttons: hsl(0, 0%, 95%);
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin-inline: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+}
+
+button {
+  background-color: var(--Transparentwhite);
+  color: inherit;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  max-width: max-content;
+}
+ul {
+  list-style: none;
+}
+
+ul {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: inherit;
+  color: var(--Transparentwhite);
+}
+
+.logo {
+}
+
+.brightorange {
+  background-color: var(--Brightorange);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  margin: -1rem;
+}
+
+.brightorange button {
+  color: var(--Brightorange);
+}
+
+.darkcyan {
+  background-color: var(--Darkcyan);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  margin: -1rem;
+}
+
+.darkcyan button {
+  color: var(--Darkcyan);
+}
+
+.verydarkcyan {
+  background-color: var(--Verydarkcyan);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  margin: -1rem;
+}
+
+.verydarkcyan button {
+  color: var(--Verydarkcyan);
+}
+
+@media screen and (min-width: 768px) {
+  ul {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background-color: inherit;
+    color: var(--Transparentwhite);
+  }
+
+  .brightorange {
+    margin: -1rem;
+  }
+}
